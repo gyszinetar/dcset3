@@ -19,14 +19,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 android {
-    signingConfigs {
-        relase_key {
-            storeFile file('dcset2keystore2.jks')
-            keyAlias 'dcset2keystore2'
-            keyPassword 'poliklinikszentantoan'
-            storePassword 'poliklinik1'
-        }
-    }
+
     compileSdkVersion 30
     buildToolsVersion "30.0.1"
 
@@ -44,7 +37,7 @@ android {
                 // Project number pulled from dashboard, local value is ignored.
                 onesignal_google_project_number: 'REMOTE'
         ]
-        signingConfig signingConfigs.relase_key
+
 
     }
 
