@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dcset3</string>
+    <string name="prompt_email">Email</string>
+    <string name="title_activity_login">Dcset3</string>
+    <string name="title_activity">Dcset3</string>
+    <string name="prompt_password">Jelszó</string>
+    <string name="action_sign_in">Belépés</string>
+    <string name="action_sign_in_short">Belépés</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "320571545430",
+    "firebase_url": "https://dcset3-e1a2f.firebaseio.com",
+    "project_id": "dcset3-e1a2f",
+    "storage_bucket": "dcset3-e1a2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320571545430:android:3034ae7cb2c7e022b368f7",
+        "android_client_info": {
+          "package_name": "hu.prooktatas.dcset3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320571545430-6f9a08vmdeemg96u6flb18aqnem6l32s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8DvwhvgfJEqsxMKJG0967CQ0t4gdyibk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320571545430-6f9a08vmdeemg96u6flb18aqnem6l32s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
