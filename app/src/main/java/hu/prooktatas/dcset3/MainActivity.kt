@@ -1,5 +1,6 @@
 package hu.prooktatas.dcset3
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
@@ -57,6 +58,11 @@ class MainActivity : AppCompatActivity(), allUsers,messages,lastseensidinterface
         }
     }
 
+    override fun onPause() {
+        super.onPause()
+        finish();
+        System.exit(0);
+    }
     private val Timer  = object : Runnable {
 
         override fun run() {
